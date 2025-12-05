@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 質問・相談
+    url: https://teams.microsoft.com/l/channel/19%3AmyiADQwuqHYv_IFfO6N5kSglPU-igrTGlvwWD9Cq5vg1%40thread.tacv2/%E4%B8%80%E8%88%AC?groupId=e65be845-c362-48b8-af50-da97a80bc724&tenantId=d19fb8bb-48e2-40cd-8357-ed6aba7e04df
+    about: バグ報告や機能リクエスト以外の質問・相談はTeamsをご利用ください。（暫定）
+
+# Issue作成時のテンプレート設定
+defaults:
+  - template: "bug_report.yml"
+    name: "🐛 バグ報告"
+    about: "バグを報告する"
+  - template: "feature_request.yml"
+    name: "💡 機能リクエスト"
+    about: "新機能のアイデアを提案する"
